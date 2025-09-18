@@ -1,0 +1,34 @@
+{
+  "addvehicle": [
+    {
+      "id": "6d1c",
+      "vehiclenumber": "MP04SV1927",
+      "vehicleownername": "Manish",
+      "vehicletype": "Bike",
+      "flatno": "B-361",
+      "rcnumber": "MP04DSVB45789",
+      "vehicleownercontact": "8527419632",
+      "alternatecontact": "7418529630",
+      "email": "manish@gmail.com",
+      "address": "Gandhi Nagar Bhopal",
+      "flatownername": "Manish ",
+      "flatownercontact": "9638527410",
+      "validdate": "2025-09-17"
+    },
+    {
+      "id": "0ace",
+      "vehiclenumber": "MP04SV8520",
+      "vehicletype": "Bike",
+      "vehicleownername": "Durgesh",
+      "flatno": "A-831",
+      "rcnumber": "MP04QWER147852",
+      "vehicleownercontact": "7485961230",
+      "alternatecontact": "8971024563",
+      "email": "durgesh@gmail.com",
+      "address": "Bhopal",
+      "flatownername": "Durgesh",
+      "flatownercontact": "7485123690",
+      "validdate": "2025-09-26"
+    }
+  ]
+}
