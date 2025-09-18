@@ -39,7 +39,8 @@ const dataDisplay=async(req, res)=>{
 const Search=async(req, res)=>{
     const {search} = req.body;  
         try{
-            const findData = await addvehicleModel.findOne({vehicleNumber:{ $regex: search + "$", $options: "i" }})
+             const regex = new RegExp(search + "$", "i");
+            const findData = await addvehicleModel.findOne({vehicleNumber: { $regex: regex }})
             if(findData){
                 return res.status(201).send(findData);                          
             }else{
